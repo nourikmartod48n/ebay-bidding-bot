@@ -1,0 +1,8 @@
+[
+  {
+    "auction_id": "1234567890",
+    "title": "Example Auction Item",
+    "current_price": 12.5,
+    "end_time_epoch": 1770956462
+  }
+]

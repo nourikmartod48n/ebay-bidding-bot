@@ -1,0 +1,12 @@
+defaults:
+  max_bid: 50.00
+  currency: "USD"
+  bid_window_seconds: 20     # only consider bids in the last N seconds
+  min_increment: 1.00
+  dry_run: true
+
+rules:
+  - name: "default"
+    enabled: true
+    keywords_include: []
+    keywords_exclude: ["broken", "parts", "damaged"]
